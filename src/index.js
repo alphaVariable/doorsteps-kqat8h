@@ -118,3 +118,22 @@ for (var i = 0; i < footer.data.footer.menu.items.length; i++) {
   li.appendChild(a);
   qs('.footer__companyul').appendChild(li);
 }
+
+for (var i = 0; i < footer.data.footer.menu.items.length; i++) {
+  var li = document.createElement('li');
+  li.classList.add('footer__companymenu--item');
+  var a = document.createElement('a');
+  a.setAttribute('href', footer.data.footer.menu.items[i].url);
+  a.classList.add('text-muted');
+  a.text = footer.data.footer.menu.items[i].copy;
+  li.appendChild(a);
+  qs('.footer__legalul').appendChild(li);
+}
+
+qs('.footer__copyright').innerHTML =
+  '<p><small>' +
+  footer.data.footer.copy_right.copy +
+  '</small></p>' +
+  '<p>' +
+  footer.data.footer.leagal_copy[0] +
+  '</p>';
