@@ -1,0 +1,27 @@
+{
+    "data" : {
+        "nav_bar" : {
+            "logo" : {
+                "icon" : {
+                    "url" : "https://assets-global.website-files.com/613866b997a5596e75141c49/61386910ca9036cb8a31fe07_Logo-horizontal.svg"
+                }
+            },
+            "cta" : {
+                "copy": "Get Started",
+                "url": "https://enquire.doorstepsfinance.com.au/movers"
+            },
+            "menu": {
+                "items" : [
+                    {
+                        "copy": "How It Works",
+                        "url" : "https://www.doorsteps.com.au/faq"
+                    },
+                    {
+                        "copy": "Market Insights",
+                        "url" : "https://www.doorsteps.com.au/market-insights"
+                    }
+                ]
+            }
+        }
+    }
+}

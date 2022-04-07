@@ -1,0 +1,17 @@
+{
+    "data" : {
+        "id" : 2,
+        "slug" : "buying-a-home-guide",
+        "title": "Buying a home: a how-to guide",
+        "published_at": "2022-02-18T20:37:15.757Z",
+        "updated_at": "2022-02-03T00:33:10.854Z",
+        "modified_date": "2022-02-19",
+        "copy": "<p>Buying a new home is an exciting experience and a huge milestone for many. But what should be a joyful time can often be littered with complications and stress.</p><p>To help you feel more confident along this journey, we've explained every step of the process and explored some of the often-overlooked details that can stall your progress to ensure you reach the best outcome possible.</p>",
+        "author" : {
+            "name": "Craig Gibson"
+        },
+        "feature_image": {
+            "url": "https://assets-global.website-files.com/613866b997a559e1a2141c65/6177865df87e050cf4ee265e_family-looking-at-house.jpg"
+        }
+    }
+}

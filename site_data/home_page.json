@@ -1,0 +1,129 @@
+{
+  "data": {
+    "doorsteps_home_page": {
+      "meta_data": {
+        "meta_title": "Doorsteps - Real Estate Reimagined",
+        "meta_description": "We are on a mission to reimagine the way real estate is done in Australia, starting with innovative financing."
+      },
+      "hero": {
+        "heading_h1": "Buy Now, <span class=\"text-colour-orange text-primary\">Sell Later</span>",
+        "heading": "Buy your next property before you sell your existing one",
+        "copy": "Are you ready to make a move?",
+        "cta": {
+          "copy": "Get Started",
+          "url": "https://enquire.doorstepsfinance.com.au/movers"
+        },
+        "image": {
+          "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61482e9f9e5f84413b750b02_hero-bg.jpg"
+        }
+      },
+      "how_it_works": {
+        "header": "How it <span class=\"text-colour-orange\">Works</span>",
+        "items": [
+          {
+            "copy": "With Doorsteps Mover you get the security of buying your new dream home first before selling your current one. No stress, no rush, just confidence knowing that you can buy on your own terms."
+          },
+          {
+            "copy": "Having to sell your existing home to be able to buy a new one comes with all sorts of stress and potential costs. We're here to lighten the load with our exclusive Buy Now, Sell Later solution."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/6148384f9f10407dab02fd9b_get-approved-icon.svg"
+          },
+          "header": "Get pre-approved",
+          "copy": "Get pre-approved for a competitive new home loan and an interest-free Mover Loan (up to $250k)1 to help purchase your new home. Start making strong offers fast."
+        },
+        {
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61483916b48eccdcf5f9199e_buy-new-home-icon.svg"
+          },
+          "header": "Buy your new home",
+          "copy": "Put down a winning offer on your dream home and move in after settlement. You don't start repaying your new mortgage until your current home sells. How good!"
+        },
+        {
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61483922ba56afe8c3fc03aa_sale-home-icon.svg"
+          },
+          "header": "Sell your current home",
+          "copy": "Get your home on to the market with a top local sales agent and skip living through all of the inspections and repairs while you’re living in your new home. "
+        }
+      ],
+      "mid_cta": {
+        "copy": "Doorsteps can help get you into your new home first, so you don't miss out on your dream home while waiting for your current home to sell.",
+        "cta": {
+          "copy": "See How It Works",
+          "url": "https://www.doorsteps.com.au/faq"
+        }
+      },
+      "why_moving": {
+        "header": "Why moving with Doorsteps <span class=\"text-colour-orange\">makes sense</span>",
+        "copy": "Doorsteps is on a mission to reimagine the way real estate works in Australia. That starts and ends with you. We believe the system should work for people, not the other way around. We're here to guide you through one of life's biggest journeys—the journey of home ownership—to make it enjoyable, not stressful.",
+        "cta": {
+          "copy": "Get Started",
+          "url": "https://enquire.doorstepsfinance.com.au/movers"
+        },
+        "image_1": {
+          "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/614840379f10405de2032258_movin-image-2.jpg"
+        },
+        "image_2": {
+          "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61483e913374a54ba6415881_movin-image-1.jpg"
+        }
+      },
+      "grid_blocks": [
+        {
+          "header": "Time",
+          "copy": "Patiently wait for the right property to buy rather than rush into whatever is available.",
+          "icon": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/6148431ba142021005448416_Property%201%3D1.svg"
+          }
+        },
+        {
+          "header": "Capital growth",
+          "copy": "Get on a faster path to building equity in your new home.",
+          "icon": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/614843c227bf7af289b66747_Property%201%3D2.svg"
+          }
+        },
+        {
+          "header": "Convenience",
+          "copy": "Let us coordinate financing your new purchase and finding the best agent to sell your existing home.",
+          "icon": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61484436dfeadf00f2bb1825_Property%201%3D6.svg"
+          }
+        },
+        {
+          "header": "Transparency",
+          "copy": "Know exactly what you're paying upfront with our Mover Loan.",
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/614843fde0fcc7874abeafc8_Property%201%3D4.svg"
+          }
+        },
+        {
+          "header": "Certainty",
+          "copy": "Don't miss out on your dream home because you haven't sold your current one.",
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/614843e5f0a64e212a0d792d_Property%201%3D3.svg"
+          }
+        },
+        {
+          "header": "Savings",
+          "copy": "Move only once from your existing home to your new home, saving you rental and other related costs.",
+          "image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/6148442ab17fc96525dfb803_Property%201%3D5.svg"
+          }
+        }
+      ],
+      "talk_to_broker": {
+        "header": "Looking for a more traditional mortgage option? <span class=\"text-colour-orange\">Talk to a broker</span>",
+        "body": "We have a team of mortgage brokers standing by to take the complexity out of applying for a loan. Our team do all of the heavy lifting for you. They manage the process from beginning to end, providing you with a range of home loan options to suit your budget and needs—both now and into the future.",
+        "cta": {
+          "copy": "Speak to a Broker",
+          "url": "https://www.doorsteps.com.au/broker"
+        }
+      }
+    }
+  }
+}

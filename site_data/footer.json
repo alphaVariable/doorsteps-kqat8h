@@ -1,0 +1,68 @@
+{
+    "data" : {
+        "footer" : {
+            "logo" : {
+                "icon" : {
+                    "url" : "https://assets-global.website-files.com/613866b997a5596e75141c49/61386910ca9036cb8a31fe07_Logo-horizontal.svg"
+                }
+            },
+            "menu": {
+                "items" : [
+                    {
+                        "copy": "Home",
+                        "url" : "https://www.doorsteps.com.au/"
+                    },
+                    {
+                        "copy": "Who are we",
+                        "url" : "https://www.doorsteps.com.au/who-are-we"
+                    },
+                    {
+                        "copy": "Speak to a Broker",
+                        "url" : "https://www.doorsteps.com.au/broker"
+                    },
+                    {
+                        "copy": "Market Insights",
+                        "url" : "https://www.doorsteps.com.au/market-insights"
+                    },
+                    {
+                        "copy": "FAQs",
+                        "url" : "https://www.doorsteps.com.au/faq"
+                    },
+                    {
+                        "copy": "Message Us",
+                        "url" : "https://www.doorsteps.com.au/message-us"
+                    }
+                ]
+            },
+            "contacts": {
+                "email" : "info@doorsteps.com.au",
+                "phone": "1300 868 184",
+                "acn": "648 541 879"
+            },
+            "copy_right" : {
+                "copy" : "Copyright © 2022 Doorsteps Finance Pty Ltd. All rights reserved."
+            },
+            "social_media_links": [
+                {
+                  "url": "https://www.facebook.com/doorsteps.au",
+                  "platform": "facebook"
+                },
+                {
+                  "url": "https://twitter.com/doorsteps_au",
+                  "platform": "twitter"
+                },
+                {
+                  "url": "https://www.instagram.com/doorsteps_au/",
+                  "platform": "instagram"
+                }
+              ],
+              "leagal_copy": [
+                  ["Doorsteps Finance Pty Ltd ACN 648 541 879 is a credit representative of Australian Finance Group Ltd ABN 11 066 385 822, the holder of Australian Credit Licence 389087. Doorsteps Finance is authorised under credit representative number 531036. Doorsteps Finance Pty Ltd is majority owned by OpenAgent Pty Ltd. OpenAgent Pty Ltd does not act on behalf of Doorsteps Finance Pty Ltd."],
+                  ["The information provided does not constitute personal advice, and should only be used for general informational purposes only. The maximum amount that may be borrowed under a Doorsteps Mover personal loan is AUD $250,000. This figure is not a personalised quote or pre-qualification for the Doorsteps Mover product. Your borrowing capacity is subject to an assessment by Doorsteps Solutions Pty Ltd. "],
+                  ["Conditions, credit criteria, fees, charges, eligibility criteria and exclusions apply. Applications are subject to assessment by Doorsteps Solutions Pty Ltd and lender approval. Before deciding to apply, you should read the terms and conditions of your loan agreement, seek independent advice and consider whether Doorsteps Mover is right for you. The information provided does not take into account your objectives, financial situation or needs."]
+              ]
+                  
+              
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "data" : {
+        "latest_blog_articles": [
+            {
+                "slug" : "buying-selling-house-same-time",
+                "title": "How to manage buying and selling a house at the same time",
+                "summary": "Working out whether to buy or sell first can be extremely tough. Find out how to navigate the decision."
+            },
+            {
+                "slug" : "buying-a-home-guide",
+                "title": "Buying a home: a how-to guide",
+                "summary": "Ready to begin your next home buying journey? Doorsteps has you covered. "
+            },
+            {
+                "slug" : "selling-your-home",
+                "title": "Selling your home: a how-to guide",
+                "summary": "Selling your home is complicated. This guide will give you the knowledge and confidence to make it happen."
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "data" : {
+        "id" : 1,
+        "slug" : "buying-selling-house-same-time",
+        "title": "How to manage buying and selling a house at the same time",
+        "published_at": "2022-01-18T20:37:15.757Z",
+        "updated_at": "2022-02-02T00:33:10.854Z",
+        "modified_date": "2022-01-19",
+        "copy": "<p>Trying to work out how to navigate the process of buying and selling property? Having to sell your existing home before you buy a new one comes with all sorts of stress, hurdles and potential costs.</p><p>The main dilemma you will be faced with is timing and cash flow or access to finance which can make the process feel more difficult than it needs to.</p>",
+        "author" : {
+            "name": "Craig Gibson"
+        },
+        "feature_image": {
+            "url": "https://assets-global.website-files.com/613866b997a5596e75141c49/61482e9f9e5f84413b750b02_hero-bg.jpg"
+        }
+    }
+}

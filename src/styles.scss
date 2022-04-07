@@ -1,0 +1,90 @@
+$primary: #ff6a5a;
+$secondary: #32324b;
+$teal: #d7e1e8;
+$border-radius: 1.5em;
+$headings-font-weight: 700 !default;
+$btn-font-weight: bold !default;
+
+$font-family-sans-serif: 'Poppins', sans-serif, 'Helvetica Neue', Helvetica,
+  Arial, sans-serif !default;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif !default;
+// $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// customisations
+.hero {
+  @include media-breakpoint-down(md) {
+    max-height: 430px;
+  }
+  &__img {
+    border-radius: 0.75em;
+  }
+}
+
+.launch {
+  &__title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+// todo: pixel perfection +
+.guide {
+  padding-bottom: 150px;
+  background-color: $teal;
+  &__card {
+    text-decoration: none;
+    margin-top: 50px;
+    @include media-breakpoint-down(lg) {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    @include media-breakpoint-up(md) {
+      background-position: center;
+    }
+  }
+  // todo: lower specificity
+  .card-body {
+    color: $black;
+    background: #fff;
+    @include media-breakpoint-down(lg) {
+      margin-top: 260px;
+    }
+  }
+  $cardHeight: 520;
+  @include media-breakpoint-up(md) {
+    &__vertical {
+      height: #{$cardHeight}px;
+      .guide__body {
+        margin: 340px 25px 0;
+      }
+    }
+    &__horizontal {
+      height: #{$cardHeight/2}px;
+      position: relative;
+      .guide__body {
+        margin: 30px -40px 0 40px;
+      }
+    }
+  }
+}
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'height': (
+      property: height,
+      responsive: true,
+      class: h,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto,
+      ),
+    ),
+  )
+);
