@@ -83,3 +83,38 @@ for (var i in articles) {
     horizonatalConfigurationEnd;
 }
 qs('.guide__cards').innerHTML = card;
+
+console.log(footer.data.footer);
+
+//  populate the footer classes with the data from footer.data.footer.contacts
+qs('.footerlink__mail').setAttribute(
+  'href',
+  'mailto:' + footer.data.footer.contacts.email
+);
+qs('.footerlink__mail').innerHTML =
+  '<i class="fas fa-envelope d-inline-block"></i>  ' +
+  footer.data.footer.contacts.email;
+
+qs('.footerlink__phone').setAttribute(
+  'href',
+  'tel:' + footer.data.footer.contacts.phone
+);
+qs('.footerlink__phone').innerHTML =
+  '<i class="fas fa-phone d-inline-block"></i>  ' +
+  footer.data.footer.contacts.phone;
+
+qs('.footerlink__acn').setAttribute('href', footer.data.footer.contacts.acn);
+qs('.footerlink__acn').innerHTML =
+  '<i class="fas fa-building d-inline-block"></i>  ' +
+  footer.data.footer.contacts.acn;
+
+for (var i = 0; i < footer.data.footer.menu.items.length; i++) {
+  var li = document.createElement('li');
+  li.classList.add('footer__companymenu--item');
+  var a = document.createElement('a');
+  a.setAttribute('href', footer.data.footer.menu.items[i].url);
+  a.classList.add('text-muted');
+  a.text = footer.data.footer.menu.items[i].copy;
+  li.appendChild(a);
+  qs('.footer__companyul').appendChild(li);
+}
