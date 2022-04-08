@@ -6,8 +6,6 @@ import data from '/site_data/home_page';
 import articles from './articles';
 import footer from '/site_data/footer';
 
-console.log(articles);
-
 // utility functions for the app vanilla js
 function qs(selector) {
   return document.querySelector(selector);
@@ -38,9 +36,19 @@ qs('.hero__cta').setAttribute(
 );
 qs('.hero__cta').text = data.data.doorsteps_home_page.hero.cta.copy;
 
-console.log(data.data.doorsteps_home_page.how_it_works.header);
 qs('.launch__innertitle').innerHTML =
   data.data.doorsteps_home_page.how_it_works.header;
+
+qs('.launch__copy').innerHTML = '';
+for (
+  var i = 0;
+  i < data.data.doorsteps_home_page.how_it_works.items.length;
+  i++
+) {
+  var p = document.createElement('p');
+  p.innerHTML = data.data.doorsteps_home_page.how_it_works.items[i].copy;
+  qs('.launch__copy').appendChild(p);
+}
 
 // loop over articles and create a card for each one
 // Use vanilla js
@@ -86,8 +94,6 @@ for (var i in articles) {
     horizonatalConfigurationEnd;
 }
 qs('.guide__cards').innerHTML = card;
-
-console.log(footer.data.footer);
 
 //  populate the footer classes with the data from footer.data.footer.contacts
 qs('.footerlink__mail').setAttribute(
