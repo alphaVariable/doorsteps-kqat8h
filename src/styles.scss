@@ -71,6 +71,15 @@ $font-family-base: $font-family-sans-serif !default;
   }
 }
 
+.footer {
+  &__h3 {
+    color: #2d2f39;
+  }
+  &__a {
+    text-decoration: none;
+  }
+}
+
 $utilities: map-merge(
   $utilities,
   (

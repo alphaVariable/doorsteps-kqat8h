@@ -114,6 +114,7 @@ for (var i = 0; i < footer.data.footer.menu.items.length; i++) {
   var a = document.createElement('a');
   a.setAttribute('href', footer.data.footer.menu.items[i].url);
   a.classList.add('text-muted');
+  a.classList.add('footer__a');
   a.text = footer.data.footer.menu.items[i].copy;
   li.appendChild(a);
   qs('.footer__companyul').appendChild(li);
@@ -125,6 +126,7 @@ for (var i = 0; i < footer.data.footer.menu.items.length; i++) {
   var a = document.createElement('a');
   a.setAttribute('href', footer.data.footer.menu.items[i].url);
   a.classList.add('text-muted');
+  a.classList.add('footer__a');
   a.text = footer.data.footer.menu.items[i].copy;
   li.appendChild(a);
   qs('.footer__legalul').appendChild(li);
