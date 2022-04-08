@@ -18,7 +18,7 @@
         }
       },
       "how_it_works": {
-        "header": "How it <span class=\"text-colour-orange\">Works</span>",
+        "header": "How it <span class=\"text-colour-orange text-primary\">Works</span>",
         "items": [
           {
             "copy": "With Doorsteps Mover you get the security of buying your new dream home first before selling your current one. No stress, no rush, just confidence knowing that you can buy on your own terms."

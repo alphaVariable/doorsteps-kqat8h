@@ -32,12 +32,15 @@ qs('.hero__img').setAttribute(
   'src',
   data.data.doorsteps_home_page.hero.image.url
 );
-console.log(data.data.doorsteps_home_page.hero.url);
 qs('.hero__cta').setAttribute(
   'href',
   data.data.doorsteps_home_page.hero.cta.url
 );
 qs('.hero__cta').text = data.data.doorsteps_home_page.hero.cta.copy;
+
+console.log(data.data.doorsteps_home_page.how_it_works.header);
+qs('.launch__innertitle').innerHTML =
+  data.data.doorsteps_home_page.how_it_works.header;
 
 // loop over articles and create a card for each one
 // Use vanilla js
